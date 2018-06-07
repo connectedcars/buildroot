@@ -11,6 +11,7 @@ cp ${BOARD_DIR}/update.json ${BINARIES_DIR}/update.json
 cp ${BOARD_DIR}/active.json ${BINARIES_DIR}/active.json
 cp ${BOARD_DIR}/app.squashfs ${BINARIES_DIR}/app.squashfs
 cp ${BOARD_DIR}/empty.ext4 ${BINARIES_DIR}/empty.ext4
+cp ${BOARD_DIR}/bcm2710-rpi-3-b.dtb ${BINARIES_DIR}/bcm2710-rpi-3-b.dtb
 
 for arg in "$@"
 do
