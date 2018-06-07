@@ -1,0 +1,3 @@
+
+source "$BR2_EXTERNAL_CC_RPI_PATH/package/xdelta3/Config.in"
+

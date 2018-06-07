@@ -1,0 +1,4 @@
+config BR2_PACKAGE_BLUETOOTHTESTER
+	bool "bluetoothtester"
+	help
+	  Package for testing bluetooth.

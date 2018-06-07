@@ -1,0 +1,9 @@
+config BR2_PACKAGE_XDELTA3
+	bool "xdelta3"
+	default y
+	depends on BR2_TOOLCHAIN_BUILDROOT_GLIBC=y
+	select BR2_PACKAGE_XZ
+    help
+	  The xdelta3 patch tool. Allows incremental update of binary files.
+
+	  http://xdelta.org/

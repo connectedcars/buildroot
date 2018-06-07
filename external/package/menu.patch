@@ -1,0 +1,12 @@
+--- Config.in	2018-03-04 21:28:34.000000000 +0000
++++ Confignew.in	2018-03-12 08:33:31.911925664 +0000
+@@ -2010,4 +2010,9 @@
+ 	source "package/vim/Config.in"
+ endmenu
+ 
++menu "Custom Packages"
++        source "package/helloworld/Config.in"
++        source "package/xdelta3/Config.in"
++endmenu
++
+ endmenu
