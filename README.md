@@ -1,3 +1,11 @@
+## Building for raspberrypi3 
+
+1) run 'make BR2_EXTERNAL=external cc_rpi_defconfig'
+2) run 'make BR2_EXTERNAL=external'
+
+
+## General buildroot info
+
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
 Linux systems through cross-compilation.
 
